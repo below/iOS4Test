@@ -1,6 +1,8 @@
 iOS4Test
 ========
 
+tl;dr: Designate `UIKit.framework` as "Optional"
+
 Originally, I created this project to get help on a question, but a nice side effect of preparing sample code, and explaining it to an audience is that you carefully reexamine what you did — and as a side effect you find the solution yourself.
 
 The key question was:
