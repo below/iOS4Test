@@ -17,17 +17,11 @@ NSMutableDictionary *options = [NSMutableDictionary dictionaryWithCapacity:2];
     
 #warning The point of this example is here!
     
-    // Unless commented out, the following line (well, the following two) will cause dyld to fail and
-    // crash the app on iOS 4
     if (&UIPageViewControllerOptionSpineLocationKey != NULL)
         [options setObject:[NSNumber numberWithInt:UIPageViewControllerSpineLocationMin] forKey:UIPageViewControllerOptionSpineLocationKey];
     
-    // Most interestingly, this code however works exactly as expected, and does not cause the app
-    // to crash.
     if (&UIPageViewControllerOptionInterPageSpacingKey != NULL)
         [options setObject:@0 forKey:UIPageViewControllerOptionInterPageSpacingKey];
-
-    // Is this an Apple Bug? Am I doing it wrong?
     
 }
 @end
