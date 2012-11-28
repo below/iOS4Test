@@ -22,7 +22,7 @@ The [Apple Documentation](https://developer.apple.com/library/ios/#documentation
 * "The compiler for your project must be the LLVM-GCC 4.2 compiler or newer": Check
 * "You must ensure that any frameworks not available in your project’s deployment target are weakly linked, rather than required": Che… oh, wait!
 
-The framework in question is actually `UIKit.frameworki`. While it is most certainly available on any iOS, it is not available in the *version* we are looking for.
+The framework in question is actually `UIKit.framework`. While it is most certainly available on any iOS, it is not available in the *version* we are looking for.
 
 In order to allow weak linking for `UIPageViewControllerOptionSpineLocationKey`, it is necessary to go to the target's Build Phases, and in the "Link Binary With Libraries" section set the `UIKit.frameworki` to "Optional".
 
