@@ -24,7 +24,7 @@ The [Apple Documentation](https://developer.apple.com/library/ios/#documentation
 
 The framework in question is actually `UIKit.framework`. While it is most certainly available on any iOS, it is not available in the *version* we are looking for.
 
-In order to allow weak linking for `UIPageViewControllerOptionSpineLocationKey`, it is necessary to go to the target's Build Phases, and in the "Link Binary With Libraries" section set the `UIKit.frameworki` to "Optional".
+In order to allow weak linking for `UIPageViewControllerOptionSpineLocationKey`, it is necessary to go to the target's Build Phases, and in the "Link Binary With Libraries" section set the `UIKit.framework` to "Optional".
 
 This will fix the issue.
 
