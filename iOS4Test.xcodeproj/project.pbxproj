@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB853CF51666524E008EC463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB853CF41666524E008EC463 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CB853CF51666524E008EC463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB853CF41666524E008EC463 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		CB853CF71666524E008EC463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB853CF61666524E008EC463 /* Foundation.framework */; };
 		CB853CF91666524E008EC463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB853CF81666524E008EC463 /* CoreGraphics.framework */; };
 		CB853CFF1666524E008EC463 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB853CFD1666524E008EC463 /* InfoPlist.strings */; };
@@ -40,6 +40,7 @@
 		CB853D101666524E008EC463 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		CB853D1B166652B7008EC463 /* UnusedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnusedClass.h; sourceTree = "<group>"; };
 		CB853D1C166652B7008EC463 /* UnusedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnusedClass.m; sourceTree = "<group>"; };
+		CB853D6D16675E62008EC463 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		CB853CE51666524E008EC463 = {
 			isa = PBXGroup;
 			children = (
+				CB853D6D16675E62008EC463 /* README.md */,
 				CB853CFA1666524E008EC463 /* iOS4Test */,
 				CB853CF31666524E008EC463 /* Frameworks */,
 				CB853CF11666524E008EC463 /* Products */,

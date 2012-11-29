@@ -43,7 +43,7 @@ I got the [answer](http://lists.apple.com/archives/xcode-users/2012/Nov/msg00245
 
 Because of the `NS_AVAILABLE` macro, the linker knows that `UIPageViewControllerOptionInterPageSpacingKey` needs to be weak linked. It's missing for `UIPageViewControllerOptionSpineLocationKey`, and that requires the developer to designate `UIKit.framework` as Optional in the project.
 
-The suggested solution was to redeclare the identifier with the appropriate `NS_AVAILABLE_IOS(5_0)` macro, and that should make weak linking `UIKit.framework` unnecessary. However, I don't stock iOS 4 devices at home so I will have to wait for tomorrow to try it out
+So another solution is to redeclare the identifier with the appropriate `NS_AVAILABLE_IOS(5_0)` macro. This makes weak linking `UIKit.framework` unnecessary. 
 
 
 
